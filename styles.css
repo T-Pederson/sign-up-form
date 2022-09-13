@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+.hero {
+    background-image: url("images/green-leaf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 1000px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Norse-Bold, sans-serif;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 275px;
+}
+
+.logo_image {
+    height: 150px;
+    padding: 20px 0;
+}
+
+.credits {
+    text-align: center;
+}
+
+.credits a {
+    color: white;
+}
