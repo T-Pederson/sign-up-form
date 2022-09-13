@@ -6,6 +6,10 @@
 body {
     display: flex;
     margin: 0;
+    background: #111;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero {
@@ -13,8 +17,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-    width: 1000px;
+    height: 80vh;
+    width: 525px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -24,16 +28,16 @@ body {
 .logo {
     background-color: rgba(0, 0, 0, 0.5);
     font-family: Norse-Bold, sans-serif;
-    font-size: 7rem;
+    font-size: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 275px;
+    margin-top: 17.5vh;
 }
 
 .logo_image {
-    height: 150px;
-    padding: 20px 0;
+    height: 125px;
+    padding: 10px 0;
 }
 
 .credits {
@@ -42,4 +46,17 @@ body {
 
 .credits a {
     color: white;
+}
+
+.content {
+    background-color: #f8f8ff;
+    height: 80vh;
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header p {
+    margin: 0;
 }
