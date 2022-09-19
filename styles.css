@@ -72,6 +72,7 @@ body {
 .myform {
     background-color: white;
     padding: 10px 100px 40px 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .myform p {
@@ -118,4 +119,34 @@ input, textarea {
     padding: 3px 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
+}
+
+.footer {
+    padding: 25px 0 0 50px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #596d48;
+}
+
+[type=button] {
+    background-color: #596d48;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+[type=button]:active {
+    background-color: #49583c;
+    scale: 98%;
+}
+
+[type=button]:focus {
+    border: none;
 }
